@@ -1,0 +1,27 @@
+{
+  "name": "seiga.ga",
+  "version": "1.0.0",
+  "description": "My PortfolioSite on firebase. https://seiga.ga",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiga/seiga.ga.git"
+  },
+  "author": "seiga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seiga/seiga.ga/issues"
+  },
+  "homepage": "https://github.com/seiga/seiga.ga#readme"
+}

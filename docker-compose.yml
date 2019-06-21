@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  next:
+    image: node:10.15.3-alpine
+    container_name: next
+    hostname: next
+    volumes:
+      - .:/src
+      - /node_modules
+    working_dir: /src
+    ports:
+      - 3000:3000
