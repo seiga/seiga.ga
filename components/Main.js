@@ -22,7 +22,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image left"><img src="/static/images/geekjob_camp.png" alt="https://learn.geekjob.jp" target="_blank" /></span>
-          <p>Launched membership programming learning service. As a leader, I was responsible for almost everything from needs-analysis to team-management and front&backend coding with Rails. I also made a programming learning curriculum and worked as a lecturer.</p>
+          <p>Launched programming learning service. As a leader, I was responsible for almost everything from analysis to management and front&backend coding with Rails. I also made a programming learning curriculum and worked as a lecturer.</p>
           <span className="image right"><img src="/static/images/for_geek.png" alt="https://www.geekjob.jp/" target="_blank" /></span>
           <p>It is a company blog by Wordpress. I was in charge of everything from design ordering to plug-in customization.</p>
           {close}
