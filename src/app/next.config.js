@@ -1,16 +1,16 @@
 const withTypescript = require('@zeit/next-typescript')
-module.exports = withTypescript()
 const path = require('path')
 const glob = require('glob')
 
-module.exports = {
+module.exports = withTypescript({
+  distDir: '../../dist/functions/next',
   webpack: (config, { dev }) => {
     config.module.rules.push(
       {
         test: /\.(css|scss)/,
         loader: 'emit-file-loader',
         options: {
-          name: 'dist/[path][name].[ext]'
+          name: '../../dist/[path][name].[ext]'
         }
       },
       {
@@ -39,4 +39,4 @@ module.exports = {
   //     '/': { page: '/' }
   //   }
   // }
-}
+})
